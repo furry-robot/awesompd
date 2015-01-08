@@ -40,7 +40,7 @@ local jamendo = awesompd.try_require("jamendo")
 awesompd.PLAYING = "Playing"
 awesompd.PAUSED = "Paused"
 -- Do not display anything when stopped
-awesompd.STOPPED = " "
+awesompd.STOPPED = ""
 awesompd.DISCONNECTED = "Disconnected"
 
 awesompd.MOUSE_LEFT = 1
